@@ -20,6 +20,19 @@
           padding-right: 16px;
         }
       }
+      @media(max-width:1024px)
+      {
+          .pqr{
+            visibility: hidden;
+          }
+      }
+      @media(max-width:1200px)
+      {
+          .pqr{
+            width:400px;
+            margin-top: 100px;
+          }
+      }
       @media (min-width: 1023px) {
         .backchange {
           background-size: 100% 100%;
@@ -525,7 +538,7 @@
             </div>
           </div>
           <img
-            class="absolute right-0 bottom-0 top-0 hidden lg:block"
+            class="absolute right-0 bottom-0 top-0  pqr"
             src="./imagess/buisness-banking.png"
           />
         </div>
